@@ -1,7 +1,13 @@
 {
-    "liveServer.settings.proxy": {
-        "enable": true,
-        "baseUri": "/api",
-        "proxyUri": "http://localhost:7071/api"
-    }
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/api",
+    "proxyUri": "http://localhost:7071/api"
+  },
+  "azureFunctions.projectSubpath": "azure-function\\dotnet",
+  "azureFunctions.deploySubpath": "azure-function\\dotnet/bin/Release/net6.0/publish",
+  "azureFunctions.projectLanguage": "C#",
+  "azureFunctions.projectRuntime": "~4",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.preDeployTask": "publish (functions)"
 }
